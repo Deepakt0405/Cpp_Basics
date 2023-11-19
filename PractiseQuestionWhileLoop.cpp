@@ -1,4 +1,4 @@
-//Sum of 1 to n even number 
+// Sum of 1 to n even number
 
 /* #include<iostream>
 using namespace std;
@@ -17,31 +17,25 @@ cout<<sum;
 
 } */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main (){
+int main()
+{
     int n;
-    cin>>n;
+    cin >> n;
 
-    int i=2;
-    while(i<n){
-       if(n%i==0){
-        cout<<"Not Prime For" << i <<endl;
-       }
-       else{
-        cout<<"Prime For" << i <<endl;
-       }
-       i=i+1;
+    int i = 4;
+    while (i < n)
+    {
+        if (n % i == 0)
+        {
+            cout << "Not Prime For" << i << endl;
+        }
+        else
+        {
+            cout << "Prime For" << i << endl;
+        }
+        i = i + 1;
     }
 }
-
-
-
-
-    
-
-   
-
-   
- 
